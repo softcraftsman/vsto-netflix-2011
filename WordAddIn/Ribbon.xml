@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI onLoad="Ribbon_Load" xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+    <ribbon>
+        <tabs>
+            <tab idMso="TabAddIns" label="Netflix2">
+                <group id="group1" label="Netflix Group">
+                    <button id="btnTitles" onAction="DoAction" label="Titles" size="large" getImage="FindImage" />
+                    <button id="btnPeople" onAction="DoAction" label="People" size="large" getImage="FindImage" />
+                </group>
+                <group id="group2" label="group2">
+                    <buttonGroup id="buttonGroup1">
+                        <button id="button1" label="button1" showImage="false" />
+                        <button id="button2" label="button2" showImage="false" />
+                    </buttonGroup>
+                    <box id="box1">
+                        <button id="button3" label="button3" showImage="false" />
+                    </box>
+                </group>
+                <group id="group3" label="group3">
+                    <checkBox id="checkBox1" label="checkBox1" />
+                    <comboBox id="comboBox1" label="comboBox1" showImage="false" />
+                    <dropDown id="dropDown1" label="dropDown1" showImage="false" />
+                    <editBox id="editBox1" label="editBox1" showImage="false" />
+                    <gallery id="gallery1" label="gallery1" showImage="false" />
+                </group>
+                <group id="group4" label="group4">
+                    <labelControl id="label1" label="label1" />
+                    <separator id="separator1" />
+                    <menu id="menu1" label="menu1" showImage="false" />
+                    <splitButton id="splitButton1">
+                        <button id="splitButton1__btn" label="splitButton1" />
+                        <menu id="splitButton1__mnu" />
+                    </splitButton>
+                </group>
+            </tab>
+            <tab id="tab2" label="Netflix Second Tab">
+                <group id="group5" label="group5" />
+            </tab>
+        </tabs>
+    </ribbon>
+	<backstage>
+		<tab label="test">
+			<firstColumn>
+				<group>
+					<topItems>
+						<button label="test" />
+					</topItems>
+				</group>
+			</firstColumn>
+	
+		</tab>
+
+	</backstage>
+</customUI>

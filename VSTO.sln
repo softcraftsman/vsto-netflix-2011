@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelAddIn", "ExcelAddIn\ExcelAddIn.csproj", "{7ED3A177-DA20-4B87-931B-6DBBEF8ABB72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{DEC5FB68-E0DA-4676-B2C6-6058362DD65A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordAddIn", "WordAddIn\WordAddIn.csproj", "{78CD10CA-7E95-4506-9D86-745BD823FEEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordDocument", "WordDocument\WordDocument.csproj", "{3515FA65-C237-499C-9DF5-A16D666B241B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelAddInNetflix", "ExcelAddInNetflix\ExcelAddInNetflix.csproj", "{3442BA56-4DB2-47E3-9B4E-9F9139C055AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7ED3A177-DA20-4B87-931B-6DBBEF8ABB72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ED3A177-DA20-4B87-931B-6DBBEF8ABB72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ED3A177-DA20-4B87-931B-6DBBEF8ABB72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ED3A177-DA20-4B87-931B-6DBBEF8ABB72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEC5FB68-E0DA-4676-B2C6-6058362DD65A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEC5FB68-E0DA-4676-B2C6-6058362DD65A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEC5FB68-E0DA-4676-B2C6-6058362DD65A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEC5FB68-E0DA-4676-B2C6-6058362DD65A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78CD10CA-7E95-4506-9D86-745BD823FEEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78CD10CA-7E95-4506-9D86-745BD823FEEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78CD10CA-7E95-4506-9D86-745BD823FEEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78CD10CA-7E95-4506-9D86-745BD823FEEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3515FA65-C237-499C-9DF5-A16D666B241B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3515FA65-C237-499C-9DF5-A16D666B241B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3515FA65-C237-499C-9DF5-A16D666B241B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3515FA65-C237-499C-9DF5-A16D666B241B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3442BA56-4DB2-47E3-9B4E-9F9139C055AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3442BA56-4DB2-47E3-9B4E-9F9139C055AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3442BA56-4DB2-47E3-9B4E-9F9139C055AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3442BA56-4DB2-47E3-9B4E-9F9139C055AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
